@@ -5,15 +5,18 @@ import Image from 'next/image';
 export default function LifeAt() {
   const [block, setBlock] = useState(0);
   return (
-    <section className="relative md:py-24 py-16">
+    <section className="relative pb-16">
       <div className="container relative">
         <div className="grid grid-cols-1 pb-8 text-center">
-          <h3 className="md:text-3xl md:leading-normal text-2xl leading-normal font-semibold font-kaushan">
-            Life at companyName
-          </h3>
+          <h4 className="font-kaushan font-bold lg:leading-normal leading-normal text-3xl lg:text-5xl text-black relative">
+            Life at{' '}
+            <span className="after:absolute after:end-0 after:start-0 after:bottom-4 after:lg:h-4 after:h-3 after:w-auto after:bg-cyan-400/30 relative text-cyan-400">
+              companyName
+            </span>
+          </h4>
         </div>
 
-        <div className="grid md:grid-cols-12 grid-cols-1 mt-8 gap-[30px]">
+        <div className="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
           <div className="lg:col-span-4 md:col-span-5">
             <div className="sticky top-20">
               <ul
@@ -110,7 +113,12 @@ export default function LifeAt() {
               id="myTabContent"
               className="p-6 bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-md"
             >
-              <div role="tabpanel" id="profile" aria-labelledby="profile-tab" hidden={block !== 0}>
+              <div
+                role="tabpanel"
+                id="profile"
+                aria-labelledby="profile-tab"
+                hidden={block !== 0}
+              >
                 <Image
                   src="/images/about/lifeAt/lifeat-1.webp"
                   width={0}
@@ -121,9 +129,14 @@ export default function LifeAt() {
                   alt="Innovative Workspaces"
                 />
               </div>
-              <div role="tabpanel" id="dashboard" aria-labelledby="dashboard-tab" hidden={block !== 1}>
+              <div
+                role="tabpanel"
+                id="dashboard"
+                aria-labelledby="dashboard-tab"
+                hidden={block !== 1}
+              >
                 <Image
-                  src="/images/about/lifeAt/lifeat-2.webp"
+                  src="/images/about/lifeAt/lifeat-1.webp"
                   width={0}
                   height={0}
                   sizes="100vw"
@@ -132,9 +145,14 @@ export default function LifeAt() {
                   alt="Tech-Driven Culture"
                 />
               </div>
-              <div role="tabpanel" id="settings" aria-labelledby="settings-tab" hidden={block !== 2}>
+              <div
+                role="tabpanel"
+                id="settings"
+                aria-labelledby="settings-tab"
+                hidden={block !== 2}
+              >
                 <Image
-                  src="/images/about/lifeAt/lifeat-3.webp"
+                  src="/images/about/lifeAt/lifeat-1.webp"
                   width={0}
                   height={0}
                   sizes="100vw"
@@ -143,9 +161,14 @@ export default function LifeAt() {
                   alt="Team Building"
                 />
               </div>
-              <div role="tabpanel" id="settings" aria-labelledby="settings-tab" hidden={block !== 3}>
+              <div
+                role="tabpanel"
+                id="settings"
+                aria-labelledby="settings-tab"
+                hidden={block !== 3}
+              >
                 <Image
-                  src="/images/about/lifeAt/lifeat-4.webp"
+                  src="/images/about/lifeAt/lifeat-1.webp"
                   width={0}
                   height={0}
                   sizes="100vw"

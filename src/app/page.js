@@ -5,11 +5,9 @@ import { FaArrowRight } from 'react-icons/fa';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import CounterTwo from './components/CounterTwo';
-import LifeAt from './components/LifeAt';
-import Counter from './components/Counter';
 import Hero from './components/Hero';
-// data
-import { mainFeatureData, faqData } from './Data/data';
+import About from './components/About';
+import Blog from './components/Blog';
 // metadata
 export const metadata = {
   description:
@@ -18,10 +16,9 @@ export const metadata = {
 
 export default function Page() {
   return (
-    <>
+    <section className="min-h-screen w-screen overflow-x-hidden">
       <Navbar />
       <Hero />
-
       <section className="relative">
         <div className="container relative lg:pt-24 pt-16">
           <div
@@ -42,70 +39,11 @@ export default function Page() {
           <CounterTwo />
         </div>
       </section>
-
-      <section className="relative md:pb-24 pb-16 overflow-hidden">
-        <div className="container relative md:mt-24 mt-16">
-          <div className="grid md:grid-cols-2 grid-cols-1 items-center mt-10 gap-[30px]">
-            <div className="relative">
-              <Image
-                src="/images/home/home-2.png"
-                width={0}
-                height={0}
-                sizes="100vw"
-                style={{ width: '100%', height: 'auto' }}
-                alt=""
-              />
-            </div>
-
-            <div className="lg:ms-8">
-              <div className="grid grid-cols-1 gap-[30px]">
-                {mainFeatureData.map((item, index) => {
-                  let Icons = item.icon;
-                  return (
-                    <div
-                      key={index}
-                      className="group flex items-center relative overflow-hidden p-6 rounded-md shadow bg-gray-50 hover:bg-cyan-500 transition-all duration-500 ease-in-out"
-                    >
-                      <span className="text-cyan-500 group-hover:text-white text-5xl font-semibold transition-all duration-500 ease-in-out">
-                        <Icons className="w-8 h-8" />
-                      </span>
-                      <div className="flex-1 ms-3">
-                        <h5 className="group-hover:text-white text-xl font-semibold transition-all duration-500 ease-in-out">
-                          {item.title}
-                        </h5>
-                        <p className="text-slate-400 group-hover:text-white/50 transition-all duration-500 ease-in-out mt-2">
-                          {item.desc}
-                        </p>
-                      </div>
-                      <div className="absolute start-1 top-5 text-dark/[0.03] text-8xl group-hover:text-white/[0.04] transition-all duration-500 ease-in-out">
-                        <Icons className="w-20 h-20" />
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
-          </div>
-        </div>
+      <section className="relative">
+        <About />
       </section>
 
-      <section
-        className="py-20 w-full table relative bg-fixed bg-center bg-no-repeat bg-cover"
-        style={{ backgroundImage: `url('/images/home/home-4.jpg')` }}
-      >
-        <div className="absolute inset-0"></div>
-        <div className="absolute inset-0 bg-gradient-to-tl to-indigo-600/75 from-teal-600/75"></div>
-
-        <div className="container relative">
-          <div className="grid grid-cols-1 text-center">
-            <h3 className="font-kaushan mb-4 md:text-7xl text-5xl text-white font-semibold">
-              We Have Talented Developers
-            </h3>
-          </div>
-        </div>
-      </section>
-
-      <section className="relative md:py-24 py-16">
+      <section className="relative md:py-8 py-6">
         <div className="container relative md:mt-24 mt-16">
           <div className="grid grid-cols-1 pb-8 text-center">
             <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">
@@ -918,10 +856,9 @@ export default function Page() {
             </div>
           </div>
         </div>
+        <Blog className="container relative md:mt-24 mt-16" />
       </section>
-      <LifeAt />
-
       <Footer />
-    </>
+    </section>
   );
 }

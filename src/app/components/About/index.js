@@ -28,12 +28,15 @@ const About = () => {
 
   return (
     <div className="min-h-screen w-screen">
-      <div className="relative mb-8 mt-12 flex flex-col items-center gap-5">
-        <h3 className="font-kaushan mb-6 mt-8 md:text-4xl text-3xl md:leading-normal leading-normal font-bold">
-          <span className="font-kaushan after:absolute after:end-0  after:start-0  after:bottom-1 after:lg:h-3 after:h-2 after:w-auto after:rounded-md after:bg-cyan-500/30 relative text-cyan-500">
-            Welcome to companyName
-          </span>
-        </h3>
+      <div className="relative mb-8 mt-36 flex flex-col items-center gap-5">
+        <div className="about-subtext">
+          <p>The Game of Games begins—your life, now an epic MMORPG</p>
+          <p className="text-gray-500">
+            Zentry unites every player from countless games and platforms, both
+            digital and physical, into a unified Play Economy
+          </p>
+        </div>
+
       </div>
 
       <div className="h-dvh w-screen" id="clip">

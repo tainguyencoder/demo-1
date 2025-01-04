@@ -59,25 +59,45 @@ export const faqData = [
 export const featuresData = [
   {
     iconImage: '/images/service/icon/scale.png',
-    image: '/images/gym/fea01.jpg',
+    image: '/images/service/feature-3.webp',
     title: 'Progression',
     desc: 'After you decide to start training we will make sure you get the best fitness program. Our sport experts and latest sports equipment are the winning combination.',
   },
   {
     iconImage: '/images/service/icon/kettlebell.png',
-    image: '/images/gym/fea02.jpg',
+    image: '/images/service/feature-3.webp',
     title: 'Progression',
     desc: 'After you decide to start training we will make sure you get the best fitness program. Our sport experts and latest sports equipment are the winning combination.',
   },
   {
     iconImage: '/images/service/icon/water-bottle.png',
-    image: '/images/gym/fea03.jpg',
+    image: '/images/service/feature-3.webp',
     title: 'Progression',
     desc: 'After you decide to start training we will make sure you get the best fitness program. Our sport experts and latest sports equipment are the winning combination.',
   },
 ];
 
 export const servicesData = [
+  {
+    icon: LuLineChart,
+    title: 'Software Development',
+    desc: 'It is a long established fact that a reader.',
+  },
+  {
+    icon: PiCrosshairBold,
+    title: 'Mobile App Development',
+    desc: 'It is a long established fact that a reader.',
+  },
+  {
+    icon: LuAirplay,
+    title: 'Web Development',
+    desc: 'It is a long established fact that a reader.',
+  },
+  {
+    icon: LuRocket,
+    title: 'Game Development',
+    desc: 'It is a long established fact that a reader.',
+  },
   {
     icon: LuLineChart,
     title: 'Software Development',
