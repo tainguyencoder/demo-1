@@ -1,0 +1,11 @@
+pre[class*='language-'] {
+  color: theme('colors.slate.50');
+}
+
+.token-line {
+  color: theme('colors.cyan.500')
+}
+
+.token.constant {
+  color: theme('colors.pink.500')
+}
