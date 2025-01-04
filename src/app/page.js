@@ -63,7 +63,7 @@ export default function Page() {
               <div className="slide-track flex items-center">
                 <div className="slide h-auto md:w-[360px] w-72 m-2">
                   <ul className="space-y-4">
-                    <li className="rounded-lg shadow p-6 border-b-4 border-cyan-500">
+                    <li className="rounded-lg shadow p-6 border-b-4 border-slate-900">
                       <div className="flex items-center pb-6 border-b border-gray-200">
                         <Image
                           src="/images/home/client/01.jpg"
@@ -76,7 +76,7 @@ export default function Page() {
                         <div className="ps-4">
                           <Link
                             href="#"
-                            className="text-lg hover:text-cyan-500 duration-500 ease-in-out"
+                            className="text-lg hover:text-slate-900 duration-500 ease-in-out"
                           >
                             Thomas Israel
                           </Link>
@@ -110,7 +110,7 @@ export default function Page() {
                       </div>
                     </li>
 
-                    <li className="rounded-lg shadow p-6 border-b-4 border-cyan-500">
+                    <li className="rounded-lg shadow p-6 border-b-4 border-slate-900">
                       <div className="flex items-center pb-6 border-b border-gray-200">
                         <Image
                           src="/images/home/client/02.jpg"
@@ -123,7 +123,7 @@ export default function Page() {
                         <div className="ps-4">
                           <Link
                             href="#"
-                            className="text-lg hover:text-cyan-500 duration-500 ease-in-out"
+                            className="text-lg hover:text-slate-900 duration-500 ease-in-out"
                           >
                             Barbara McIntosh
                           </Link>
@@ -134,7 +134,7 @@ export default function Page() {
                       <div className="mt-6">
                         <p className="text-slate-400">
                           There are so many things I had to do with my old
-                          software that I just do not do at all with Techwind.
+                          software that I just do not do at all with companyName.
                           Suspicious but I cannot say I do not love it.
                         </p>
                         <ul className="list-none mb-0 text-amber-400 mt-2">
@@ -161,7 +161,7 @@ export default function Page() {
 
                 <div className="slide h-auto md:w-[360px] w-72 m-2">
                   <ul className="space-y-4">
-                    <li className="rounded-lg shadow p-6 border-b-4 border-cyan-500">
+                    <li className="rounded-lg shadow p-6 border-b-4 border-slate-900">
                       <div className="flex items-center pb-6 border-b border-gray-200">
                         <Image
                           src="/images/home/client/02.jpg"
@@ -174,7 +174,7 @@ export default function Page() {
                         <div className="ps-4">
                           <Link
                             href="#"
-                            className="text-lg hover:text-cyan-500 duration-500 ease-in-out"
+                            className="text-lg hover:text-slate-900 duration-500 ease-in-out"
                           >
                             Carl Oliver
                           </Link>
@@ -184,7 +184,7 @@ export default function Page() {
 
                       <div className="mt-6">
                         <p className="text-slate-400">
-                          The best part about Techwind is every time I pay my
+                          The best part about companyName is every time I pay my
                           employees, my bank balance does not go down like it
                           used to. Looking forward to spending this extra cash
                           when I figure out why my card is being declined.
@@ -209,7 +209,7 @@ export default function Page() {
                       </div>
                     </li>
 
-                    <li className="rounded-lg shadow p-6 border-b-4 border-cyan-500">
+                    <li className="rounded-lg shadow p-6 border-b-4 border-slate-900">
                       <div className="flex items-center pb-6 border-b border-gray-200">
                         <Image
                           src="/images/home/client/03.jpg"
@@ -222,7 +222,7 @@ export default function Page() {
                         <div className="ps-4">
                           <Link
                             href="#"
-                            className="text-lg hover:text-cyan-500 duration-500 ease-in-out"
+                            className="text-lg hover:text-slate-900 duration-500 ease-in-out"
                           >
                             Jill Webb
                           </Link>
@@ -261,7 +261,7 @@ export default function Page() {
 
                 <div className="slide h-auto md:w-[360px] w-72 m-2">
                   <ul className="space-y-4">
-                    <li className="rounded-lg shadow p-6 border-b-4 border-cyan-500">
+                    <li className="rounded-lg shadow p-6 border-b-4 border-slate-900">
                       <div className="flex items-center pb-6 border-b border-gray-200">
                         <Image
                           src="/images/home/client/04.jpg"
@@ -274,7 +274,7 @@ export default function Page() {
                         <div className="ps-4">
                           <Link
                             href="#"
-                            className="text-lg hover:text-cyan-500 duration-500 ease-in-out"
+                            className="text-lg hover:text-slate-900 duration-500 ease-in-out"
                           >
                             Barbara McIntosh
                           </Link>
@@ -285,7 +285,7 @@ export default function Page() {
                       <div className="mt-6">
                         <p className="text-slate-400">
                           I used to have to remit tax to the EU, and with
-                          Techwind, I somehow do not have to do that anymore.
+                          companyName, I somehow do not have to do that anymore.
                           Nervous to travel there now, though.
                         </p>
                         <ul className="list-none mb-0 text-amber-400 mt-2">
@@ -308,7 +308,7 @@ export default function Page() {
                       </div>
                     </li>
 
-                    <li className="rounded-lg shadow p-6 border-b-4 border-cyan-500">
+                    <li className="rounded-lg shadow p-6 border-b-4 border-slate-900">
                       <div className="flex items-center pb-6 border-b border-gray-200">
                         <Image
                           src="/images/home/client/05.jpg"
@@ -321,7 +321,7 @@ export default function Page() {
                         <div className="ps-4">
                           <Link
                             href="#"
-                            className="text-lg hover:text-cyan-500 duration-500 ease-in-out"
+                            className="text-lg hover:text-slate-900 duration-500 ease-in-out"
                           >
                             Janisha Doll
                           </Link>
@@ -359,7 +359,7 @@ export default function Page() {
 
                 <div className="slide h-auto md:w-[360px] w-72 m-2">
                   <ul className="space-y-4">
-                    <li className="rounded-lg shadow p-6 border-b-4 border-cyan-500">
+                    <li className="rounded-lg shadow p-6 border-b-4 border-slate-900">
                       <div className="flex items-center pb-6 border-b border-gray-200">
                         <Image
                           src="/images/home/client/08.jpg"
@@ -372,7 +372,7 @@ export default function Page() {
                         <div className="ps-4">
                           <Link
                             href="#"
-                            className="text-lg hover:text-cyan-500 duration-500 ease-in-out"
+                            className="text-lg hover:text-slate-900 duration-500 ease-in-out"
                           >
                             Carl Oliver
                           </Link>
@@ -382,7 +382,7 @@ export default function Page() {
 
                       <div className="mt-6">
                         <p className="text-slate-400">
-                          The best part about Techwind is every time I pay my
+                          The best part about companyName is every time I pay my
                           employees, my bank balance does not go down like it
                           used to. I am looking forward to spending this extra
                           cash when I figure out why my card is being declined.
@@ -407,7 +407,7 @@ export default function Page() {
                       </div>
                     </li>
 
-                    <li className="rounded-lg shadow p-6 border-b-4 border-cyan-500">
+                    <li className="rounded-lg shadow p-6 border-b-4 border-slate-900">
                       <div className="flex items-center pb-6 border-b border-gray-200">
                         <Image
                           src="/images/home/client/01.jpg"
@@ -420,7 +420,7 @@ export default function Page() {
                         <div className="ps-4">
                           <Link
                             href="#"
-                            className="text-lg hover:text-cyan-500 duration-500 ease-in-out"
+                            className="text-lg hover:text-slate-900 duration-500 ease-in-out"
                           >
                             Jill Webb
                           </Link>
@@ -459,7 +459,7 @@ export default function Page() {
 
                 <div className="slide h-auto md:w-[360px] w-72 m-2">
                   <ul className="space-y-4">
-                    <li className="rounded-lg shadow p-6 border-b-4 border-cyan-500">
+                    <li className="rounded-lg shadow p-6 border-b-4 border-slate-900">
                       <div className="flex items-center pb-6 border-b border-gray-200">
                         <Image
                           src="/images/home/client/08.jpg"
@@ -472,7 +472,7 @@ export default function Page() {
                         <div className="ps-4">
                           <Link
                             href="#"
-                            className="text-lg hover:text-cyan-500 duration-500 ease-in-out"
+                            className="text-lg hover:text-slate-900 duration-500 ease-in-out"
                           >
                             Carl Oliver
                           </Link>
@@ -482,7 +482,7 @@ export default function Page() {
 
                       <div className="mt-6">
                         <p className="text-slate-400">
-                          The best part about Techwind is every time I pay my
+                          The best part about companyName is every time I pay my
                           employees, my bank balance does not go down like it
                           used to. I am looking forward to spending this extra
                           cash when I figure out why my card is being declined.
@@ -507,7 +507,7 @@ export default function Page() {
                       </div>
                     </li>
 
-                    <li className="rounded-lg shadow p-6 border-b-4 border-cyan-500">
+                    <li className="rounded-lg shadow p-6 border-b-4 border-slate-900">
                       <div className="flex items-center pb-6 border-b border-gray-200">
                         <Image
                           src="/images/home/client/01.jpg"
@@ -520,7 +520,7 @@ export default function Page() {
                         <div className="ps-4">
                           <Link
                             href="#"
-                            className="text-lg hover:text-cyan-500 duration-500 ease-in-out"
+                            className="text-lg hover:text-slate-900 duration-500 ease-in-out"
                           >
                             Jill Webb
                           </Link>
@@ -559,7 +559,7 @@ export default function Page() {
 
                 <div className="slide h-auto md:w-[360px] w-72 m-2">
                   <ul className="space-y-4">
-                    <li className="rounded-lg shadow p-6 border-b-4 border-cyan-500">
+                    <li className="rounded-lg shadow p-6 border-b-4 border-slate-900">
                       <div className="flex items-center pb-6 border-b border-gray-200">
                         <Image
                           src="/images/home/client/02.jpg"
@@ -572,7 +572,7 @@ export default function Page() {
                         <div className="ps-4">
                           <Link
                             href="#"
-                            className="text-lg hover:text-cyan-500 duration-500 ease-in-out"
+                            className="text-lg hover:text-slate-900 duration-500 ease-in-out"
                           >
                             Barbara McIntosh
                           </Link>
@@ -583,7 +583,7 @@ export default function Page() {
                       <div className="mt-6">
                         <p className="text-slate-400">
                           I used to have to remit tax to the EU, and with
-                          Techwind, I somehow do not have to do that anymore. I
+                          companyName, I somehow do not have to do that anymore. I
                           am nervous to travel there now, though.
                         </p>
                         <ul className="list-none mb-0 text-amber-400 mt-2">
@@ -606,7 +606,7 @@ export default function Page() {
                       </div>
                     </li>
 
-                    <li className="rounded-lg shadow p-6 border-b-4 border-cyan-500">
+                    <li className="rounded-lg shadow p-6 border-b-4 border-slate-900">
                       <div className="flex items-center pb-6 border-b border-gray-200">
                         <Image
                           src="/images/home/client/03.jpg"
@@ -619,7 +619,7 @@ export default function Page() {
                         <div className="ps-4">
                           <Link
                             href="#"
-                            className="text-lg hover:text-cyan-500 duration-500 ease-in-out"
+                            className="text-lg hover:text-slate-900 duration-500 ease-in-out"
                           >
                             Janisha Doll
                           </Link>
@@ -657,7 +657,7 @@ export default function Page() {
 
                 <div className="slide h-auto md:w-[360px] w-72 m-2">
                   <ul className="space-y-4">
-                    <li className="rounded-lg shadow p-6 border-b-4 border-cyan-500">
+                    <li className="rounded-lg shadow p-6 border-b-4 border-slate-900">
                       <div className="flex items-center pb-6 border-b border-gray-200">
                         <Image
                           src="/images/home/client/04.jpg"
@@ -670,7 +670,7 @@ export default function Page() {
                         <div className="ps-4">
                           <Link
                             href="#"
-                            className="text-lg hover:text-cyan-500 duration-500 ease-in-out"
+                            className="text-lg hover:text-slate-900 duration-500 ease-in-out"
                           >
                             Thomas Israel
                           </Link>
@@ -704,7 +704,7 @@ export default function Page() {
                       </div>
                     </li>
 
-                    <li className="rounded-lg shadow p-6 border-b-4 border-cyan-500">
+                    <li className="rounded-lg shadow p-6 border-b-4 border-slate-900">
                       <div className="flex items-center pb-6 border-b border-gray-200">
                         <Image
                           src="/images/home/client/05.jpg"
@@ -717,7 +717,7 @@ export default function Page() {
                         <div className="ps-4">
                           <Link
                             href="#"
-                            className="text-lg hover:text-cyan-500 duration-500 ease-in-out"
+                            className="text-lg hover:text-slate-900 duration-500 ease-in-out"
                           >
                             Barbara McIntosh
                           </Link>
@@ -728,7 +728,7 @@ export default function Page() {
                       <div className="mt-6">
                         <p className="text-slate-400">
                           There are so many things I had to do with my old
-                          software that I just do not do at all with Techwind.
+                          software that I just do not do at all with companyName.
                           Suspicious, but I cannot say I do not love it.
                         </p>
                         <ul className="list-none mb-0 text-amber-400 mt-2">
@@ -755,7 +755,7 @@ export default function Page() {
 
                 <div className="slide h-auto md:w-[360px] w-72 m-2">
                   <ul className="space-y-4">
-                    <li className="rounded-lg shadow p-6 border-b-4 border-cyan-500">
+                    <li className="rounded-lg shadow p-6 border-b-4 border-slate-900">
                       <div className="flex items-center pb-6 border-b border-gray-200">
                         <Image
                           src="/images/home/client/06.jpg"
@@ -768,7 +768,7 @@ export default function Page() {
                         <div className="ps-4">
                           <Link
                             href="#"
-                            className="text-lg hover:text-cyan-500 duration-500 ease-in-out"
+                            className="text-lg hover:text-slate-900 duration-500 ease-in-out"
                           >
                             Carl Oliver
                           </Link>
@@ -778,7 +778,7 @@ export default function Page() {
 
                       <div className="mt-6">
                         <p className="text-slate-400">
-                          The best part about Techwind is every time I pay my
+                          The best part about companyName is every time I pay my
                           employees, my bank balance doesnt go down like it used
                           to. Looking forward to spending this extra cash when I
                           figure out why my card is being declined.
@@ -803,7 +803,7 @@ export default function Page() {
                       </div>
                     </li>
 
-                    <li className="rounded-lg shadow p-6 border-b-4 border-cyan-500">
+                    <li className="rounded-lg shadow p-6 border-b-4 border-slate-900">
                       <div className="flex items-center pb-6 border-b border-gray-200">
                         <Image
                           src="/images/home/client/07.jpg"
@@ -816,7 +816,7 @@ export default function Page() {
                         <div className="ps-4">
                           <Link
                             href="#"
-                            className="text-lg hover:text-cyan-500 duration-500 ease-in-out"
+                            className="text-lg hover:text-slate-900 duration-500 ease-in-out"
                           >
                             Jill Webb
                           </Link>

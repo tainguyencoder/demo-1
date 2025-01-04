@@ -22,9 +22,9 @@ export default function JobTab() {
                 onClick={() => handleTabClick(job.id)}
                 className={`${
                   isOpenTab === job.id
-                    ? 'text-cyan-500 bg-slate-900 hover:text-cyan-500'
+                    ? 'text-white bg-slate-900'
                     : ''
-                } shadow px-4 py-2 text-center font-semibold rounded-md w-full mt-3 hover:text-cyan-500 transition-all duration-500 ease-in-out`}
+                } shadow px-4 py-2 text-center font-semibold rounded-md w-full mt-3 hover:text-slate-400 transition-all duration-500 ease-in-out`}
               >
                 {job.title}
               </button>

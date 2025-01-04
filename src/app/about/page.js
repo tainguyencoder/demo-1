@@ -35,19 +35,44 @@ export default function Page() {
         <div className="container relative z-1">
           <div className="grid md:grid-cols-2 items-center gap-[30px]">
             <div className="">
-              <h4 className="font-kaushan font-bold lg:leading-normal leading-normal text-4xl lg:text-6xl mb-5 text-white relative">
-                Hello! <br /> We Are A{' '}
+              <h1 className="special-font page-heading text-blue-100">
+                <b>h</b>
+                <b>e</b>
+                <b>l</b>
+                <b>l</b>
+                <b>o</b>!
+                <br />
+                <b>w</b>
+                <b>e</b>
+                <span>&nbsp;</span> {/* Khoảng trắng giữa từ */}
+                <b>a</b>
+                <b>r</b>
+                <b>e</b>
+                <span>&nbsp;</span> {/* Khoảng trắng giữa từ */}
                 <span className="after:absolute after:end-0 after:start-0 after:bottom-4 after:lg:h-4 after:h-3 after:w-auto after:bg-rose-500/30 relative text-rose-600">
-                  Talented
+                  <b>T</b>
+                  <b>a</b>
+                  <b>l</b>
+                  <b>e</b>
+                  <b>n</b>
+                  <b>t</b>
+                  <b>e</b>
+                  <b>d</b>
                 </span>
-                <br /> Programmer
-              </h4>
-              <p className="text-white text-lg max-w-xl">
-                Launch your campaign and benefit from our expertise on designing
-                and managing conversion centered Tailwind CSS v3.x html page.
-              </p>
-
-              <div className="relative mt-8">
+                <br />
+                <b>P</b>
+                <b>r</b>
+                <b>o</b>
+                <b>g</b>
+                <b>r</b>
+                <b>a</b>
+                <b>m</b>
+                <b>m</b>
+                <b>e</b>
+                <b>r</b>
+                <b>s</b>
+              </h1>
+              <div className="relative mt-16">
                 <Link href="contact">
                   <Button
                     id="contact"
@@ -90,7 +115,7 @@ export default function Page() {
         </div>
       </section>
 
-            <section className="relative md:pb-24 pb-16 overflow-hidden">
+      <section className="relative">
         <div className="container relative md:mt-24 mt-16">
           <div className="grid md:grid-cols-2 grid-cols-1 items-center mt-10 gap-[30px]">
             <div className="relative">
@@ -111,9 +136,9 @@ export default function Page() {
                   return (
                     <div
                       key={index}
-                      className="group flex items-center relative overflow-hidden p-6 rounded-md shadow bg-gray-50 hover:bg-cyan-500 transition-all duration-500 ease-in-out"
+                      className="group flex items-center relative overflow-hidden p-6 rounded-md shadow bg-gray-50 hover:bg-slate-900 transition-all duration-500 ease-in-out"
                     >
-                      <span className="text-cyan-500 group-hover:text-white text-5xl font-semibold transition-all duration-500 ease-in-out">
+                      <span className="text-slate-900 group-hover:text-white text-5xl font-semibold transition-all duration-500 ease-in-out">
                         <Icons className="w-8 h-8" />
                       </span>
                       <div className="flex-1 ms-3">
@@ -136,22 +161,6 @@ export default function Page() {
         </div>
       </section>
 
-            <section
-        className="py-20 w-full table relative bg-fixed bg-center bg-no-repeat bg-cover"
-        style={{ backgroundImage: `url('/images/home/home-4.jpg')` }}
-      >
-        <div className="absolute inset-0"></div>
-        <div className="absolute inset-0 bg-gradient-to-tl to-indigo-600/75 from-teal-600/75"></div>
-
-        <div className="container relative">
-          <div className="grid grid-cols-1 text-center">
-            <h3 className="font-kaushan mb-4 md:text-7xl text-5xl text-white font-semibold">
-              We Have Talented Developers
-            </h3>
-          </div>
-        </div>
-      </section>
-
       <section className="relative md:pb-24 pb-16">
         <div className="container relative md:mt-24 mt-16">
           <div className="grid lg:grid-cols-12 md:grid-cols-12 grid-cols-1 mt-8 gap-[30px] items-center">
@@ -168,7 +177,7 @@ export default function Page() {
                   <div className="mt-2 md:order-1 order-2">
                     <Link
                       href="#"
-                      className="text-xl font-semibold font-eb_garamond hover:text-cyan-500"
+                      className="text-xl font-semibold font-eb_garamond hover:text-slate-400"
                     >
                       High Quality
                     </Link>
@@ -190,7 +199,7 @@ export default function Page() {
                   <div className="mt-2 md:order-1 order-2">
                     <Link
                       href="#"
-                      className="text-xl font-semibold font-eb_garamond hover:text-cyan-500"
+                      className="text-xl font-semibold font-eb_garamond hover:text-slate-400"
                     >
                       Pure Grades
                     </Link>
@@ -212,7 +221,7 @@ export default function Page() {
                   <div className="mt-2 md:order-1 order-2">
                     <Link
                       href="#"
-                      className="text-xl font-semibold font-eb_garamond hover:text-cyan-500"
+                      className="text-xl font-semibold font-eb_garamond hover:text-slate-400"
                     >
                       Proper Roasting
                     </Link>
@@ -250,7 +259,7 @@ export default function Page() {
                   <div className="mt-2">
                     <Link
                       href="#"
-                      className="text-xl font-semibold font-eb_garamond hover:text-cyan-500"
+                      className="text-xl font-semibold font-eb_garamond hover:text-slate-400"
                     >
                       The Perfect Cup
                     </Link>
@@ -272,7 +281,7 @@ export default function Page() {
                   <div className="mt-2">
                     <Link
                       href="#"
-                      className="text-xl font-semibold font-eb_garamond hover:text-cyan-500"
+                      className="text-xl font-semibold font-eb_garamond hover:text-slate-400"
                     >
                       Coffee Machine
                     </Link>
@@ -294,7 +303,7 @@ export default function Page() {
                   <div className="mt-2">
                     <Link
                       href="#"
-                      className="text-xl font-semibold font-eb_garamond hover:text-cyan-500"
+                      className="text-xl font-semibold font-eb_garamond hover:text-slate-400"
                     >
                       Coffee to Go
                     </Link>
@@ -329,7 +338,7 @@ export default function Page() {
                 Happy Hours
               </h4>
 
-              <p className="text-cyan-500 font-eb_garamond text-lg font-medium mt-2">
+              <p className="text-slate-600 font-eb_garamond text-lg font-medium mt-2">
                 Starts at 3pm
               </p>
 
@@ -344,7 +353,7 @@ export default function Page() {
               <div className="mt-4">
                 <Link
                   href="/tel:+152534-468-854"
-                  className="relative inline-block font-semibold tracking-wide align-middle text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-cyan-500 hover:text-cyan-500 after:bg-cyan-500 duration-500 font-eb_garamond text-lg"
+                  className="relative inline-block font-semibold tracking-wide align-middle text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-slate-600 hover:text-slate-600 after:bg-slate-600 duration-500 font-eb_garamond text-lg"
                 >
                   +152 534-468-854
                 </Link>
@@ -397,7 +406,7 @@ export default function Page() {
 
                 <div className="grid lg:grid-cols-2 gap-6 mt-6">
                   <div className="group flex duration-500 xl:p-3">
-                    <div className="flex align-middle justify-center items-center size-14 mt-1 bg-cyan-500/5 group-hover:bg-cyan-500 group-hover:text-white border-2 border-cyan-500/20 text-cyan-500 rounded-lg text-2xl shadow-sm duration-500">
+                    <div className="flex align-middle justify-center items-center size-14 mt-1 bg-slate-600/5 group-hover:bg-slate-900 group-hover:text-white border-2 border-slate-600/20 text-slate-600 rounded-lg text-2xl shadow-sm duration-500">
                       <FiUserCheck className="size-5" />
                     </div>
                     <div className="flex-1 ms-4">
@@ -412,7 +421,7 @@ export default function Page() {
                   </div>
 
                   <div className="group flex duration-500 xl:p-3">
-                    <div className="flex align-middle justify-center items-center size-14 mt-1 bg-cyan-500/5 group-hover:bg-cyan-500 group-hover:text-white border-2 border-cyan-500/20 text-cyan-500 rounded-lg text-2xl shadow-sm duration-500">
+                    <div className="flex align-middle justify-center items-center size-14 mt-1 bg-slate-600/5 group-hover:bg-slate-900 group-hover:text-white border-2 border-slate-600/20 text-slate-600 rounded-lg text-2xl shadow-sm duration-500">
                       <FiThumbsUp className="size-5" />
                     </div>
                     <div className="flex-1 ms-4">
@@ -428,13 +437,13 @@ export default function Page() {
                 </div>
 
                 <div className="relative mt-4">
-                  <div className="relative p-6 border-2 border-cyan-500 rounded-[30px] before:content-[''] before:absolute before:w-28 before:border-[6px] before:border-white before:-bottom-1 before:start-16 before:z-2 after:content-[''] after:absolute after:border-2 after:border-cyan-500 after:rounded-none after:rounded-e-[50px] after:w-20 after:h-20 after:-bottom-[80px] after:start-[60px] after:z-3 after:border-s-0 after:border-b-0">
+                  <div className="relative p-6 border-2 border-slate-600 rounded-[30px] before:content-[''] before:absolute before:w-28 before:border-[6px] before:border-white before:-bottom-1 before:start-16 before:z-2 after:content-[''] after:absolute after:border-2 after:border-slate-600 after:rounded-none after:rounded-e-[50px] after:w-20 after:h-20 after:-bottom-[80px] after:start-[60px] after:z-3 after:border-s-0 after:border-b-0">
                     <span className="font-semibold text-2xl leading-normal">
                       Technology is the core of sustainable growth, helping your
                       business overcome challenges.
                     </span>
 
-                    <div className="absolute text-8xl -top-0 start-4 text-cyan-500/10 -z-1">
+                    <div className="absolute text-8xl -top-0 start-4 text-slate-600/10 -z-1">
                       <i className="mdi mdi-format-quote-open"></i>
                     </div>
                   </div>
@@ -451,7 +460,6 @@ export default function Page() {
       <LifeAt />
 
       <Footer />
-
     </section>
   );
 }

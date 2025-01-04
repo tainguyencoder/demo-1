@@ -33,7 +33,7 @@ export const faqData = [
   },
   {
     id: 2,
-    title: 'Do I need a designer to use Techwind ?',
+    title: 'Do I need a designer to use companyName ?',
     content:
       'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.',
   },

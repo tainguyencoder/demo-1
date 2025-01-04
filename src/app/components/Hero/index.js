@@ -16,7 +16,7 @@ const Hero = () => {
   const [hasClicked, setHasClicked] = useState(false);
 
   const [loading, setLoading] = useState(true);
-  const [loadedVideos, setLoadedVideos] = useState(0);
+  const [loadedVideos, setLoadedVideos] = useState(1);
 
   const totalVideos = 4;
   const nextVdRef = useRef(null);
@@ -34,8 +34,7 @@ const Hero = () => {
   const handleMiniVdClick = () => {
     setHasClicked(true);
 
-    setCurrentIndex((prevIndex) => (prevIndex % totalVideos) + 1);
-    console.log('Current Index after click:', currentIndex); // Log current index
+    setCurrentIndex((prevIndex) => (prevIndex < totalVideos ? prevIndex + 1 : 1));
   };
 
   useGSAP(
@@ -60,7 +59,7 @@ const Hero = () => {
       }
     },
     {
-      dependencies: [currentIndex],
+      dependencies: [currentIndex, hasClicked],
       revertOnUpdate: true,
     },
   );

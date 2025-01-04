@@ -1,15 +1,17 @@
 import * as Icon from 'react-feather';
+import { TiLocationArrow } from 'react-icons/ti';
 // components
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import JobTab from '../components/JobTab';
 import CompanyLogo from '../components/CompanyLogo';
+import Button from '../components/Button';
 // metadata
 export const metadata = {
   title: 'Career',
   description:
     'Join our team at companyName, where we prioritize efficiency and resource optimization to deliver exceptional value to our clients. Explore exciting career opportunities and grow with us!',
-}
+};
 
 export default function Page() {
   return (
@@ -27,9 +29,17 @@ export default function Page() {
         ></div>
         <div className="container relative">
           <div className="grid grid-cols-1 text-center mt-10">
-            <h4 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-5xl mb-5 text-white">
-              Our Work
-            </h4>
+            <h1 className="special-font page-heading text-blue-100">
+              <b>o</b>
+              <b>u</b>
+              <b>r</b>
+              <span>&nbsp;</span> {/* Khoảng trắng giữa từ */}
+              <b>w</b>
+              <b>o</b>
+              <b>r</b>
+              <b>k</b>
+              <b>s</b>
+            </h1>
           </div>
         </div>
       </section>
@@ -56,14 +66,10 @@ export default function Page() {
           </div>
         </div>
         <div className="container relative">
-          <h3 className="font-kaushan mb-6 mt-8 md:text-3xl text-2xl md:leading-normal leading-normal font-bold">
-            <span className="font-kaushan after:absolute after:end-0  after:start-0  after:bottom-1 after:lg:h-3 after:h-2 after:w-auto after:rounded-md after:bg-cyan-500/30 relative text-cyan-500">
-              Job Openings
-            </span>
-          </h3>
           <JobTab />
         </div>
       </section>
+
       <section className="relative md:pt-11 pt-3 md:pb-24 pb-16 overflow-hidden">
         <div className="container relative">
           <div className="grid lg:grid-cols-12 md:grid-cols-2 grid-cols-1 items-center mt-10 gap-[30px]">
@@ -86,7 +92,7 @@ export default function Page() {
                             name="name"
                             id="name"
                             type="text"
-                            className="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent rounded outline-none border border-gray-200 focus:border-cyan-500 focus:ring-0"
+                            className="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent rounded outline-none border border-gray-200 focus:border-slate-900 focus:ring-0"
                             placeholder="Name :"
                           />
                         </div>
@@ -102,7 +108,7 @@ export default function Page() {
                             name="email"
                             id="email"
                             type="email"
-                            className="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent rounded outline-none border border-gray-200 focus:border-cyan-500 focus:ring-0"
+                            className="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent rounded outline-none border border-gray-200 focus:border-slate-900 focus:ring-0"
                             placeholder="Email :"
                           />
                         </div>
@@ -117,21 +123,18 @@ export default function Page() {
                           <textarea
                             name="comments"
                             id="comments"
-                            className="form-input ps-11 w-full py-2 px-3 h-28 bg-transparent rounded outline-none border border-gray-200 focus:border-cyan-500 focus:ring-0"
+                            className="form-input ps-11 w-full py-2 px-3 h-28 bg-transparent rounded outline-none border border-gray-200 focus:border-slate-900 focus:ring-0"
                             placeholder="Message :"
                           ></textarea>
                         </div>
                       </div>
                     </div>
 
-                    <button
-                      type="submit"
-                      id="submit"
-                      name="send"
-                      className="py-2 px-5 font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-cyan-500 hover:bg-cyan-700 border-cyan-500 hover:border-cyan-700 text-white rounded-md justify-center flex items-center mt-3"
-                    >
-                      Submit
-                    </button>
+                    <Button
+                      title="Submit"
+                      rightIcon={<TiLocationArrow />}
+                      containerClass="bg-slate-700 text-white flex-center gap-1"
+                    />
                   </form>
                 </div>
                 <div className="overflow-hidden absolute lg:size-[400px] size-[320px] bg-cyan-500/5 bottom-0 end-0 rotate-45 -z-1 rounded-3xl"></div>

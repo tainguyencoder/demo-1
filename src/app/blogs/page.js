@@ -1,9 +1,9 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { FaArrowRight } from 'react-icons/fa';
+import { TiLocationArrow } from 'react-icons/ti';
 // components
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 // data
 import { blogData } from '../Data/data';
 // metadata
@@ -11,7 +11,7 @@ export const metadata = {
   title: 'Blog',
   description:
     'In companyName, we stay up-to-date with the latest industry news as our marketing teams finds new ways to re-purpose old CSS tricks articles.',
-}
+};
 
 export default function Page() {
   return (
@@ -25,9 +25,23 @@ export default function Page() {
         <div className="absolute inset-0 bg-black opacity-80"></div>
         <div className="container relative">
           <div className="grid grid-cols-1 pb-8 text-center mt-10">
-            <h3 className="mb-4 md:text-4xl text-3xl md:leading-normal leading-normal font-medium text-white">
-              Articles & News
-            </h3>
+            <h1 className="special-font page-heading text-blue-100">
+              <b>a</b>
+              <b>r</b>
+              <b>t</b>
+              <b>i</b>
+              <b>c</b>
+              <b>l</b>
+              <b>e</b>
+              <b>s</b>
+              <span>&nbsp;</span> {/* Khoảng trắng giữa từ */}
+              <b>&</b>
+              <span>&nbsp;</span> {/* Khoảng trắng giữa từ */}
+              <b>n</b>
+              <b>e</b>
+              <b>w</b>
+              <b>s</b>
+            </h1>
           </div>
         </div>
 
@@ -128,8 +142,8 @@ export default function Page() {
 
                   <div className="content p-6">
                     <Link
-href={`/blog-detail/${item.slug}`}
-                      className="title h5 text-lg font-medium hover:text-cyan-500 duration-500 ease-in-out"
+                      href={`/blog-detail/${item.slug}`}
+                      className="title h5 text-lg font-medium hover:text-slate-400 duration-500 ease-in-out"
                     >
                       {item.title}
                     </Link>
@@ -137,10 +151,11 @@ href={`/blog-detail/${item.slug}`}
 
                     <div className="mt-4">
                       <Link
-href={`/blog-detail/${item.slug}`}
-                        className="relative inline-flex items-center font-normal tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 hover:text-cyan-500 after:bg-cyan-500 duration-500"
+                        href={`/blog-detail/${item.slug}`}
+                        className="relative inline-flex items-center font-normal tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 hover:text-slate-500 after:bg-slate-500 duration-500"
                       >
-                        Read More <FaArrowRight className="ms-2 text-[10px]" />
+                        Read More{' '}
+                        <TiLocationArrow className="ms-1 text-[20px]" />
                       </Link>
                     </div>
                   </div>
@@ -173,9 +188,10 @@ href={`/blog-detail/${item.slug}`}
                     />
                     <button
                       type="submit"
-                      className="py-2 px-5 inline-block font-semibold tracking-wide align-middle transition duration-500 ease-in-out text-base text-center absolute top-[2px] end-[3px] h-[46px] bg-cyan-500 hover:bg-cyan-700 border border-cyan-500 hover:border-cyan-700 text-white rounded-full"
+                      className="py-2 px-5 inline-flex items-center font-semibold tracking-wide align-middle transition duration-500 ease-in-out text-base text-center absolute top-[2px] end-[3px] h-[46px] bg-slate-900 hover:bg-slate-700 border border-slate-500 hover:border-slate-600 text-white rounded-full"
                     >
-                      Subcribe Now
+                      Subcribe{' '}
+                      <TiLocationArrow className="ms-1 text-[20px]" />
                     </button>
                   </form>
                 </div>

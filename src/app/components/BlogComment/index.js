@@ -20,7 +20,7 @@ export default function BlogComment() {
                   name="name"
                   id="name"
                   type="text"
-                  className="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent  rounded outline-none border border-gray-200 focus:border-cyan-500 focus:ring-0"
+                  className="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent  rounded outline-none border border-gray-200 focus:border-slate-900 focus:ring-0"
                   placeholder="Name :"
                 />
               </div>
@@ -38,7 +38,7 @@ export default function BlogComment() {
                   name="email"
                   id="email"
                   type="email"
-                  className="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent rounded outline-none border border-gray-200 focus:border-cyan-500 focus:ring-0"
+                  className="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent rounded outline-none border border-gray-200 focus:border-slate-900 focus:ring-0"
                   placeholder="Email :"
                 />
               </div>
@@ -57,7 +57,7 @@ export default function BlogComment() {
                 <textarea
                   name="comments"
                   id="comments"
-                  className="form-input ps-11 w-full py-2 px-3 h-28 bg-transparent rounded outline-none border border-gray-200 focus:border-cyan-500 focus:ring-0"
+                  className="form-input ps-11 w-full py-2 px-3 h-28 bg-transparent rounded outline-none border border-gray-200 focus:border-slate-900 focus:ring-0"
                   placeholder="Message :"
                 ></textarea>
               </div>
@@ -68,7 +68,7 @@ export default function BlogComment() {
           type="submit"
           id="submit"
           name="send"
-          className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-cyan-500 hover:bg-cyan-700 border-cyan-500 hover:border-cyan-700 text-white rounded-md w-full"
+          className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-slate-900 hover:bg-slate-500 border-slate-900 hover:border-slate-500 text-white rounded-md w-full"
         >
           Send Message
         </button>

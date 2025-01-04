@@ -8,9 +8,9 @@ export default function LifeAt() {
     <section className="relative pb-16">
       <div className="container relative">
         <div className="grid grid-cols-1 pb-8 text-center">
-          <h4 className="font-kaushan font-bold lg:leading-normal leading-normal text-3xl lg:text-5xl text-black relative">
+          <h4 className="font-bold lg:leading-normal leading-normal text-3xl lg:text-5xl text-black relative">
             Life at{' '}
-            <span className="after:absolute after:end-0 after:start-0 after:bottom-4 after:lg:h-4 after:h-3 after:w-auto after:bg-cyan-400/30 relative text-cyan-400">
+            <span className="font-kaushan after:absolute after:end-0 after:start-0 after:bottom-4 after:lg:h-4 after:h-3 after:w-auto after:bg-slate-400/30 relative text-slate-400">
               companyName
             </span>
           </h4>
@@ -26,9 +26,9 @@ export default function LifeAt() {
               >
                 <li role="presentation" onClick={() => setBlock(0)}>
                   <button
-                    className={`px-4 py-2 text-start text-base font-semibold rounded-md w-full hover:text-cyan-500 transition-all duration-500 ease-in-out ${
+                    className={`px-4 py-2 text-start text-base font-semibold rounded-md w-full transition-all duration-500 ease-in-out ${
                       block === 0
-                        ? 'text-white bg-cyan-500 hover:text-white'
+                        ? 'text-white bg-slate-900'
                         : ''
                     }`}
                     id="profile-tab"
@@ -48,7 +48,7 @@ export default function LifeAt() {
                   <button
                     className={`px-4 py-2 text-start text-base font-semibold rounded-md w-full mt-6 transition-all duration-500 ease-in-out ${
                       block === 1
-                        ? 'text-white bg-cyan-500 hover:text-white'
+                        ? 'text-white bg-slate-900'
                         : ''
                     }`}
                     id="dashboard-tab"
@@ -68,7 +68,7 @@ export default function LifeAt() {
                   <button
                     className={`px-4 py-2 text-start text-base font-semibold rounded-md w-full mt-6 transition-all duration-500 ease-in-out ${
                       block === 2
-                        ? 'text-white bg-cyan-500 hover:text-white'
+                        ? 'text-white bg-slate-900'
                         : ''
                     }`}
                     id="settings-tab"
@@ -88,7 +88,7 @@ export default function LifeAt() {
                   <button
                     className={`px-4 py-2 text-start text-base font-semibold rounded-md w-full mt-6 transition-all duration-500 ease-in-out ${
                       block === 3
-                        ? 'text-white bg-cyan-500 hover:text-white'
+                        ? 'text-white bg-slate-900'
                         : ''
                     }`}
                     id="settings-tab"

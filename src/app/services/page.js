@@ -11,7 +11,7 @@ export const metadata = {
   title: 'Services',
   description:
     'At companyName, we believe in efficiency and maximizing our resources to provide the best value to our clients.',
-}
+};
 
 export default function Page() {
   return (
@@ -24,9 +24,23 @@ export default function Page() {
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/80 to-black"></div>
         <div className="container relative">
           <div className="grid grid-cols-1 pb-8 text-center mt-10">
-            <h3 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-5xl mb-5 text-white">
+            {/* <h3 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-5xl mb-5 text-white">
               Our Services
-            </h3>
+            </h3> */}
+            <h1 className="special-font page-heading text-blue-100">
+              <b>o</b>
+              <b>u</b>
+              <b>r</b>
+              <span>&nbsp;</span> {/* Khoảng trắng giữa từ */}
+              <b>s</b>
+              <b>e</b>
+              <b>r</b>
+              <b>v</b>
+              <b>i</b>
+              <b>c</b>
+              <b>e</b>
+              <b>s</b>
+            </h1>
           </div>
         </div>
       </section>
@@ -103,11 +117,11 @@ export default function Page() {
               return (
                 <div
                   key={index}
-                  className="group relative p-6 shadow hover:shadow-md hover:bg-cyan-500 duration-500 rounded-xl bg-white overflow-hidden text-center"
+                  className="group relative p-6 shadow hover:shadow-md hover:bg-slate-900 duration-500 rounded-xl bg-white overflow-hidden text-center"
                 >
                   <div className="relative overflow-hidden text-transparent -m-3">
-                    <FiHexagon className="size-24 fill-cyan-500/5 group-hover:fill-white/10 mx-auto"></FiHexagon>
-                    <div className="absolute top-2/4 -translate-y-2/4 start-0 end-0 mx-auto text-cyan-500 rounded-xl group-hover:text-white duration-500 text-3xl flex align-middle justify-center items-center">
+                    <FiHexagon className="size-24 fill-slate-500/5 group-hover:fill-white/10 mx-auto"></FiHexagon>
+                    <div className="absolute top-2/4 -translate-y-2/4 start-0 end-0 mx-auto text-slate-500 rounded-xl group-hover:text-white duration-500 text-3xl flex align-middle justify-center items-center">
                       <Icon className="" />
                     </div>
                   </div>

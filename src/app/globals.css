@@ -72,6 +72,10 @@ body {
     @apply uppercase font-zentry font-black text-5xl sm:right-10 sm:text-6xl md:text-9xl lg:text-[10rem];
   }
 
+  .page-heading {
+    @apply normal-case font-zentry font-black text-3xl sm:right-10 sm:text-3xl md:text-5xl lg:text-[5rem];
+  }
+
   .about-subtext {
     @apply absolute bottom-[-80dvh] left-1/2 w-full max-w-96 -translate-x-1/2 text-center font-circular-web text-lg md:max-w-[34rem];
   }

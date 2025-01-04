@@ -24,7 +24,7 @@ export default function BlogUserDetail(props) {
 
           <Link
             href="#"
-            className="text-lg font-semibold hover:text-cyan-500 transition-all duration-500 ease-in-out"
+            className="text-lg font-semibold hover:text-slate-900 transition-all duration-500 ease-in-out"
           >
             {blogUser.author}
           </Link>
@@ -38,7 +38,7 @@ export default function BlogUserDetail(props) {
           <li className="inline">
             <Link
               href="#"
-              className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-100 rounded-md text-slate-400 hover:border-cyan-500 hover:text-white hover:bg-cyan-500"
+              className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-100 rounded-md text-slate-400 hover:border-slate-900 hover:text-white hover:bg-slate-900"
             >
               <Icon.Facebook className="size-4"></Icon.Facebook>
             </Link>
@@ -46,7 +46,7 @@ export default function BlogUserDetail(props) {
           <li className="inline">
             <Link
               href="#"
-              className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-100 rounded-md text-slate-400 hover:border-cyan-500 hover:text-white hover:bg-cyan-500"
+              className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-100 rounded-md text-slate-400 hover:border-slate-900 hover:text-white hover:bg-slate-900"
             >
               <Icon.Twitter className="size-4"></Icon.Twitter>
             </Link>
@@ -54,7 +54,7 @@ export default function BlogUserDetail(props) {
           <li className="inline">
             <Link
               href="#"
-              className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-100 rounded-md text-slate-400 hover:border-cyan-500 hover:text-white hover:bg-cyan-500"
+              className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-100 rounded-md text-slate-400 hover:border-slate-900 hover:text-white hover:bg-slate-900"
             >
               <Icon.Linkedin className="size-4"></Icon.Linkedin>
             </Link>
@@ -62,7 +62,7 @@ export default function BlogUserDetail(props) {
           <li className="inline">
             <Link
               href="#"
-              className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-100 rounded-md text-slate-400 hover:border-cyan-500 hover:text-white hover:bg-cyan-500"
+              className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-100 rounded-md text-slate-400 hover:border-slate-900 hover:text-white hover:bg-slate-900"
             >
               <Icon.GitHub className="size-4"></Icon.GitHub>
             </Link>
@@ -70,7 +70,7 @@ export default function BlogUserDetail(props) {
           <li className="inline">
             <Link
               href="#"
-              className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-100 rounded-md text-slate-400 hover:border-cyan-500 hover:text-white hover:bg-cyan-500"
+              className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-100 rounded-md text-slate-400 hover:border-slate-900 hover:text-white hover:bg-slate-900"
             >
               <Icon.Youtube className="size-4"></Icon.Youtube>
             </Link>
@@ -86,7 +86,7 @@ export default function BlogUserDetail(props) {
               <li className="inline-block m-2" key={index}>
                 <Link
                   href="#"
-                  className="px-3 py-1 text-slate-400 hover:text-white bg-gray-50 text-sm hover:bg-cyan-500 rounded-md shadow transition-all duration-500 ease-in-out"
+                  className="px-3 py-1 text-slate-400 hover:text-white bg-gray-50 text-sm hover:bg-slate-900 rounded-md shadow transition-all duration-500 ease-in-out"
                 >
                   {data}
                 </Link>

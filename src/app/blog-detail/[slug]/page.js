@@ -110,7 +110,7 @@ export default function Page(props) {
 
                 <div className="mt-6">
                   <p className="text-slate-400">{blogDatas.p1}</p>
-                  <p className="text-slate-400 italic border-x-4 border-cyan-500 rounded-ss-xl rounded-ee-xl mt-3 p-3">
+                  <p className="text-slate-400 italic border-x-4 border-slate-500 rounded-ss-xl rounded-ee-xl mt-3 p-3">
                     {blogDatas.quote}{' '}
                   </p>
                   <p className="text-slate-400 mt-3">{blogDatas.p2}</p>
