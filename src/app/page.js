@@ -134,8 +134,9 @@ export default function Page() {
                       <div className="mt-6">
                         <p className="text-slate-400">
                           There are so many things I had to do with my old
-                          software that I just do not do at all with companyName.
-                          Suspicious but I cannot say I do not love it.
+                          software that I just do not do at all with
+                          companyName. Suspicious but I cannot say I do not love
+                          it.
                         </p>
                         <ul className="list-none mb-0 text-amber-400 mt-2">
                           <li className="inline">
@@ -583,8 +584,8 @@ export default function Page() {
                       <div className="mt-6">
                         <p className="text-slate-400">
                           I used to have to remit tax to the EU, and with
-                          companyName, I somehow do not have to do that anymore. I
-                          am nervous to travel there now, though.
+                          companyName, I somehow do not have to do that anymore.
+                          I am nervous to travel there now, though.
                         </p>
                         <ul className="list-none mb-0 text-amber-400 mt-2">
                           <li className="inline">
@@ -728,8 +729,9 @@ export default function Page() {
                       <div className="mt-6">
                         <p className="text-slate-400">
                           There are so many things I had to do with my old
-                          software that I just do not do at all with companyName.
-                          Suspicious, but I cannot say I do not love it.
+                          software that I just do not do at all with
+                          companyName. Suspicious, but I cannot say I do not
+                          love it.
                         </p>
                         <ul className="list-none mb-0 text-amber-400 mt-2">
                           <li className="inline">

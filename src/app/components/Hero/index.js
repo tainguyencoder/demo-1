@@ -14,9 +14,7 @@ gsap.registerPlugin(ScrollTrigger);
 const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(1);
   const [hasClicked, setHasClicked] = useState(false);
-
-  const [loading, setLoading] = useState(true);
-  const [loadedVideos, setLoadedVideos] = useState(1);
+  const [loadedVideos, setLoadedVideos] = useState(0);
 
   const totalVideos = 4;
   const nextVdRef = useRef(null);
@@ -25,16 +23,10 @@ const Hero = () => {
     setLoadedVideos((prev) => prev + 1);
   };
 
-  useEffect(() => {
-    if (loadedVideos === totalVideos - 1) {
-      setLoading(false);
-    }
-  }, [loadedVideos]);
-
   const handleMiniVdClick = () => {
     setHasClicked(true);
 
-    setCurrentIndex((prevIndex) => (prevIndex < totalVideos ? prevIndex + 1 : 1));
+    setCurrentIndex((prevIndex) => (prevIndex % totalVideos) + 1);
   };
 
   useGSAP(
@@ -59,7 +51,7 @@ const Hero = () => {
       }
     },
     {
-      dependencies: [currentIndex, hasClicked],
+      dependencies: [currentIndex],
       revertOnUpdate: true,
     },
   );
@@ -160,7 +152,7 @@ const Hero = () => {
                 id="contact"
                 title="Contact us"
                 leftIcon={<TiLocationArrow />}
-                containerClass="bg-yellow-300 flex-center gap-1"
+                containerClass="bg-yellow-300 inline-flex items-center justify-center gap-1 px-4 py-2 rounded"
               />
             </Link>
           </div>
