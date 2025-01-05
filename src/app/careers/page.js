@@ -133,7 +133,7 @@ export default function Page() {
                     <Button
                       title="Submit"
                       rightIcon={<TiLocationArrow />}
-                      containerClass="bg-slate-600 text-white flex-center gap-1"
+                      containerClass="bg-yellow-300 flex-center gap-1"
                     />
                   </form>
                 </div>

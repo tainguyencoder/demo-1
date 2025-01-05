@@ -5,14 +5,16 @@ import gsap from 'gsap';
 import { useWindowScroll } from 'react-use';
 import { useEffect, useRef, useState } from 'react';
 import { TiLocationArrow } from 'react-icons/ti';
+import { HiMenu, HiX } from 'react-icons/hi'; // Hamburger and close icons
 import Link from 'next/link';
 
 import Button from '../Button';
 
-const navItems = ['About', 'Services', 'Careers', 'Blogs', 'Contact'];
+const navItems = ['Homepage', 'About', 'Services', 'Careers', 'Blogs', 'Contact'];
 
 const NavBar = () => {
   const [isIndicatorActive, setIsIndicatorActive] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   // Refs navigation container
   const navContainerRef = useRef(null);
@@ -47,6 +49,10 @@ const NavBar = () => {
     });
   }, [isNavVisible]);
 
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen((prev) => !prev);
+  };
+
   return (
     <div
       ref={navContainerRef}
@@ -67,21 +73,56 @@ const NavBar = () => {
             </Link>
           </div>
 
-          {/* Navigation Links and Audio Button */}
-          <div className="flex h-full items-center">
-            <div className="hidden md:block">
-              {navItems.map((item, index) => (
-                <a
-                  key={index}
-                  href={`/${item.toLowerCase()}`}
-                  className="nav-hover-btn"
-                >
-                  {item}
-                </a>
-              ))}
-            </div>
+          {/* Desktop Navigation Links */}
+          <div className="hidden sm:flex h-full items-center">
+            {navItems.map(
+              (item, index) =>
+                item !== 'Homepage' && ( // Exclude Homepage from desktop links
+                  <a
+                    key={index}
+                    href={`/${item.toLowerCase()}`}
+                    className="nav-hover-btn"
+                  >
+                    {item}
+                  </a>
+                )
+            )}
+          </div>
+
+          {/* Mobile Hamburger Icon */}
+          <div className="sm:hidden flex items-center">
+            <button
+              onClick={toggleMobileMenu}
+              className="focus:outline-none"
+              aria-label="Toggle Mobile Menu"
+            >
+              {isMobileMenuOpen ? (
+                <HiX className="text-2xl text-white" />
+              ) : (
+                <HiMenu className="text-2xl text-white" />
+              )}
+            </button>
           </div>
         </nav>
+
+        {/* Mobile Dropdown Menu */}
+        {isMobileMenuOpen && (
+          <div className="absolute top-full left-0 right-0 bg-white shadow-md sm:hidden">
+            <ul className="flex flex-col p-4 space-y-2">
+              {navItems.map((item, index) => (
+                <li key={index}>
+                  <a
+                    href={`/${item.toLowerCase() === 'homepage' ? '' : item.toLowerCase()}`}
+                    className="block px-4 py-2 text-gray-700 hover:bg-gray-200"
+                    onClick={() => setIsMobileMenuOpen(false)} // Close menu on link click
+                  >
+                    {item}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
       </header>
     </div>
   );
